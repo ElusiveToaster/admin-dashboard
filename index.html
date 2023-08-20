@@ -5,38 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+      </style>
 </head>
 <body>
     <div class="sideboard">
-        <h1>Dashboard</h1>
+        <span>
+            <img src="view-dashboard.svg" alt="">
+            <h1>Dashboard</h1>
+        </span>
         <ul>
-            <li><a href="">home</a></li>
-            <li><a href="">Profile</a></li>
-            <li><a href="">Messages</a></li>
-            <li><a href="">History</a></li>
-            <li><a href="">Tasks</a></li>
-            <li><a href="">Communities</a></li>
+            <li><img src="home.svg" alt=""><a href="">Home</a></li>
+            <li><img src="card-account-details-outline.svg" alt=""><a href="">Profile</a></li>
+            <li><img src="message.svg" alt=""><a href="">Messages</a></li>
+            <li><img src="clock-time-four-outline.svg" alt=""><a href="">History</a></li>
+            <li><img src="file-multiple.svg" alt=""><a href="">Tasks</a></li>
+            <li><img src="account-group.svg" alt=""><a href="">Communities</a></li>
         </ul>
         <ul>
-            <li><a href="">Settings</a></li>
-            <li><a href="">Support</a></li>
-            <li><a href="">Privacy</a></li>
+            <li><img src="cog.svg" alt=""><a href="">Settings</a></li>
+            <li><img src="help-box.svg" alt=""><a href="">Support</a></li>
+            <li><img src="shield-check.svg" alt=""><a href="">Privacy</a></li>
         </ul>
     </div>
 
     <div class="main-page">
         <div class="header">
             <div class="headerTop">
-                <textarea name="" id="" cols="30" rows="1"></textarea>
+                <img id="searchIcon" src="magnify.svg" alt="">
+                <input type="text" name="" id="">
                 
                 <span class="rightSide">
                     <a href="" id="notifications"></a>
-                    <img src="" alt="" class="pfp">
+                    <img src="pfp.webp" alt="" class="pfp">
                     <h3>User Name</h3>
                 </span>
             </div>
             <div class="headerBottom">
-                <img src="" alt="" class="pfp">
+                <img src="pfp.webp" alt="" class="pfp">
                 <span>
                     <p>Hi there, </p>
                     <h2>Charlie Levy (@elusivetoaster)</h2>
@@ -127,21 +134,32 @@
             </div>
 
             <div class="trending">
-                <img src="" alt="">
-                <h3>@tegan</h3>
-                <p>World Peace Builder</p>
+                <h2 class="title">Trending</h2>
+                <div class="trendingContainer">
+                    <img src="pfp.webp" alt="">
+                    <div class="profileDetails">
+                        <h3>@tegan</h3>
+                        <p>World Peace Builder</p>
+                    </div>
 
-                <img src="" alt="">
-                <h3>@morgan</h3>
-                <p>Super Cool Project</p>
+                    <img src="pfp.webp" alt="">
+                    <div class="profileDetails">
+                        <h3>@morgan</h3>
+                        <p>Super Cool Project</p>
+                    </div>
 
-                <img src="" alt="">
-                <h3>@kendall</h3>
-                <p>Life Changing App</p>
+                    <img src="pfp.webp" alt="">
+                    <div class="profileDetails">
+                        <h3>@kendall</h3>
+                        <p>Life Changing App</p>
+                    </div>
 
-                <img src="" alt="">
-                <h3>@alex</h3>
-                <p>No Traffic Maker</p>
+                    <img src="pfp.webp" alt="">
+                    <div class="profileDetails">
+                        <h3>@alex</h3>
+                        <p>No Traffic Maker</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
